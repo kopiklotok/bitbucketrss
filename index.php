@@ -1,4 +1,7 @@
 <?php
+/*
+  thanks to ma nigga
+*/
 if(isset($_GET['username']) && isset($_GET['repo']) && isset($_GET['token'])){
 
   header('Content-Type: application/json');
